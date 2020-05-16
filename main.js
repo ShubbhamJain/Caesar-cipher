@@ -1,27 +1,3 @@
-// function rot13(str, num) {
-//   let converter = 0;
-//   let newStr = "";
-//   for (var i = 0; i < str.length; i++) {
-//     if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) < 78) {
-//       converter = str.charCodeAt(i) + num;
-//       newStr += String.fromCharCode(converter);
-//     }
-//     else if (str.charCodeAt(i) >= 78 && str.charCodeAt(i) <= 90) {
-//       converter = str.charCodeAt(i) - num;
-//       newStr += String.fromCharCode(converter);
-//     }
-//     else if (str.charCodeAt(i) !== 65 && str.charCodeAt(i) !== 90) {
-//       newStr += str[i];
-//     }
-//   }
-//   console.log(newStr);
-//   return newStr;
-// }
-//
-// rot13("FREE CODE CAMP!", 15);
-
-
-
 let encryptbtn = document.querySelector('#encryptbtn').addEventListener('click', encrypt);
 
 let decryptbtn = document.querySelector('#decryptbtn').addEventListener('click', decrypt);
